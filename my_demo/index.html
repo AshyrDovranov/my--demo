@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dünya Şehir Posta Kutusu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Arka plan yıldızları -->
+  <div class="stars-container">
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+  </div>
+
+  <!-- Kayan bulutlar -->
+  <div class="clouds">
+    <div class="cloud cloud1">☁️</div>
+    <div class="cloud cloud2">☁️</div>
+    <div class="cloud cloud3">☁️</div>
+    <div class="cloud cloud4">☁️</div>
+  </div>
+
+  <!-- Dünya görseli -->
+  <div class="world-map">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Blue_Marble_2002.png/640px-Blue_Marble_2002.png" alt="Earth" id="earth">
+
+    <!-- Türkiye'ye tıklanınca açılacak şehir -->
+    <div class="city-popup" id="istanbul" style="display: none;">
+      <h2>benim kalbim</h2>
+
+      <!-- Posta kutusu -->
+      <div class="mailbox-area">
+        <div class="mailbox-container">
+          <img src="https://cdn-icons-png.flaticon.com/512/847/847969.png" alt="Mailbox" id="mailbox">
+          <div class="flame flame1">🔥</div>
+          <div class="flame flame2">🔥</div>
+          <div class="flame flame3">🔥</div>
+          <div class="flame flame4">🔥</div>
+          <div class="flame flame5">🔥</div>
+          <div class="flame flame6">🔥</div>
+          <div class="flame flame7">🔥</div>
+        </div>
+        
+        <!-- Kalpler -->
+        <div class="hearts" style="display: none;">
+          ❤️ ❤️ ❤️
+        </div>
+
+        <!-- Romantik cümle -->
+        <div class="romantic-text" style="display: none;">
+          <p id="romantic-message"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3D Kalp yağmuru container -->
+  <div class="heart-rain-container"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
